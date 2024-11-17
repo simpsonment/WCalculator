@@ -1,0 +1,199 @@
+.test {
+    height: 46px;
+    width: 76px;
+    border-radius: 4px;
+    border: 1px solid rgba(27, 31, 35, 0.15) ;
+    border-bottom-width: 1px;
+    border-bottom-color: darkgrey;
+    margin: 1.5px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: normal;
+
+    padding: 0.6em 1.2em;
+    font-family: inherit;
+}
+
+.test:disabled {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+}
+
+.test:hover, 
+.individuals:hover {
+        background-color: #f5f5f5;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-bottom-width: 1px;
+        border-bottom-color: darkgrey;
+}
+
+.test:active,
+.individuals:active {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+}
+
+
+.memory {
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: inherit;
+    border: none;
+    height: 27px;
+    vertical-align: middle;    
+}
+
+.memory:hover,
+.entries:hover {
+    background-color: rgb(153, 153, 153, 0.15);
+    border-radius: 4px;
+}
+
+.entries:active,
+.focuser:active {
+    background-color: dimgrey;
+}
+.focuser:hover {
+    background-color: darkgray;
+}
+
+
+
+
+.memory:active {
+    background-color: rgb(186, 186, 186, 0.15);
+}
+
+.individuals {
+    width: 33px;
+    font-size: 13px;
+    height: 27px;
+    border-radius: 4px;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-bottom-width: 1px;
+    border-bottom-color: darkgrey;
+    vertical-align: middle;
+    font-weight: normal;
+    font-family: inherit;
+    margin: 1px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+.memory:disabled:hover {
+    background-color: #f5f5f5 !important;
+}
+
+
+
+/* CSS 
+<!-- HTML ! -->
+<button class="button-4" role="button" > Button 4</button >
+
+.button-4 {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 3px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.test:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+}
+
+.button-4:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+.button-4:focus {
+    outline: 1px transparent;
+}
+
+.button-4:before {
+    display: none;
+}
+
+.button-4:-webkit-details-marker {
+    display: none;
+}
+<!-- HTML ! -->
+<button class="button-6" role="button" > Button 6</button >
+/* CSS 
+.button-6 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+*/
